@@ -4,16 +4,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FirstTest {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
+//
+//        System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
+//        FirefoxDriver driver = new FirefoxDriver();
+//        driver.get("http://demo.guru99.com/");
+//        WebElement element = driver.findElement(By.xpath("//input[@name='emailid']"));
+//        element.sendKeys("abc@gmail.com");
+//
+//        WebElement button = driver.findElement(By.xpath("//input[@name='btnLogin']"));
+//        button.click();
 
-        System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
-        FirefoxDriver driver = new FirefoxDriver();
-        driver.get("http://demo.guru99.com/");
-        WebElement element = driver.findElement(By.xpath("//input[@name='emailid']"));
-        element.sendKeys("abc@gmail.com");
-
-        WebElement button = driver.findElement(By.xpath("//input[@name='btnLogin']"));
-        button.click();
+        System.out.println("Hello From Jenkins");
 
     }
 }
